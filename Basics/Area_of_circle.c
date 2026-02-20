@@ -1,3 +1,4 @@
+// program to calculate the area of circle.
 #include<stdio.h>
 int main(){
   float r,pi=3.1415;
@@ -6,3 +7,4 @@ int main(){
   printf("area of circle is %f square unit",3.14*(r*r));
   return 0;
 }
+
