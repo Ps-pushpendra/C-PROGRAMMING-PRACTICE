@@ -1,3 +1,4 @@
+// program to find the addition of two number 
 #include<stdio.h>
 int main()
 { int a,b,sum;
@@ -9,3 +10,4 @@ int main()
   printf("sum is %d",sum);
   return 0;
 }
+
