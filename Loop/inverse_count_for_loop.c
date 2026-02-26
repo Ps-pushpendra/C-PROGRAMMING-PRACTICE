@@ -3,7 +3,8 @@
 int main(){
     int i;
     for (i=9;i>=0;i--){    
-        printf("%d\n",i);
+        printf("%d\n",i); // display the current value of i.
     }
     return 0;
+
 }
