@@ -1,3 +1,5 @@
+// program to swap the value of two variable.
+
 #include<stdio.h>
 int main(){
     int a,b,temp;
@@ -6,9 +8,9 @@ int main(){
     printf("enter second number(b):");
     scanf("%d",&b);
 
-    temp=a;
-    a=b;
-    b=temp;
+    temp=a;    // temp stores the value of a
+    a=b;        // storing value of b on a 
+    b=temp;     // providing value of temp to b
 
     printf("the values of variable after swapping\n");
     printf("a=%d\n",a);
@@ -16,5 +18,6 @@ int main(){
 
     return 0;
     
+
 
 }
