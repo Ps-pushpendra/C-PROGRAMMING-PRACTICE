@@ -1,3 +1,5 @@
+// program to determine a number is prime or not.
+
 #include<stdio.h>
 int main(){
     int n,i,count=0;
@@ -8,8 +10,9 @@ int main(){
         if(n%i==0)
         count++;    // herer count increment when condition is true
     }
-      if (count==2) printf("Prime number");
+      if (count==2) printf("Prime number");  // here count takes the value which divisible by own.
       else printf("not prime number");
 
     return 0;
+
 }
