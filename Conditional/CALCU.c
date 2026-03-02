@@ -1,3 +1,5 @@
+// program work as calculator for two numbers.
+
 #include<stdio.h>
 int main(){
 float n1,n2,result;
@@ -32,3 +34,4 @@ default: printf("invalid input!! please check the input");
 }
 return 0;
 }
+
