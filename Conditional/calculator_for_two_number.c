@@ -4,14 +4,14 @@
 int main(){
 float n1,n2,result;
 char operation;
-printf("Enter two integers n1 and n2:");
-scanf("%f%f",&n1,&n2);
-printf("press + for ADDITION:\n");
-printf("press - for SUBSTRACTION:\n");
+printf("Enter two integers n1 and n2 and seperate them by space or enter:");
+scanf("%f%f",&n1,&n2);     
+printf("press + for ADDITION:\n");           // provide instruction as for your operation.
+printf("press - for SUBSTRACTION:\n");     
 printf("press * for MULTIPLEICATION:\n");
 printf("press / for DIVISION:\n");
 printf("your choice:");
-scanf(" %c",&operation);
+scanf(" %c",&operation);  // your instruction stored in operation then use it on switch case.
 
 switch(operation) {
 
@@ -34,5 +34,6 @@ default: printf("invalid input!! please check the input");
 }
 return 0;
 }
+
 
 
