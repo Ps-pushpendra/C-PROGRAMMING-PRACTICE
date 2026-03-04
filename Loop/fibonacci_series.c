@@ -1,3 +1,5 @@
+// program to print the fibonacci series  (0,1,0+1,1+1,....)
+
 #include<stdio.h>
 int main(){
     int n,a=0,b=1,i,c;
@@ -14,3 +16,4 @@ int main(){
 
     return 0;
 }
+
