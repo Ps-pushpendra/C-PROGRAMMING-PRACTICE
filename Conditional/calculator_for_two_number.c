@@ -30,10 +30,11 @@ case '*':  result=n1*n2;
 case '/':  result=n1/n2;
 	 printf("division = %f",result);
 	 break;
-default: printf("invalid input!! please check the input");
+default: printf("invalid input!! please check the input");  // it act as else statement.
 }
 return 0;
 }
+
 
 
 
