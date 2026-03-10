@@ -1,3 +1,7 @@
+// program to determine a number is perfect or not.
+
+  // a number is perfect if it is divisible by its sum of digits.
+
 #include<stdio.h>
 int main(){
     int n,sum=0;
@@ -12,4 +16,5 @@ int main(){
     else printf("not a perfect number");
 
     return 0;
+
 }
