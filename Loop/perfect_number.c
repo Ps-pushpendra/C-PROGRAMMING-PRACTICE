@@ -13,6 +13,7 @@ int main(){
     for (int i=1;i<n;i++){
         if (n%i==0) sum+=i;  // if condition true then sum of digit.
     }
+  
     if (sum==n) printf("number is perfect");
     else printf("not a perfect number");
 
