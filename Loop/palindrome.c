@@ -1,4 +1,4 @@
-
+// program to check a number is palindrome or not.
 
 #include<stdio.h>
 int main(){
@@ -7,17 +7,16 @@ int main(){
    printf("enter:");
    scanf("%d",&n);
 
-   call = n;
+   call = n;    // for later recall
 
    while(n>0){
 
-   t=n%10;
-   sum=t+(sum*10);
-   n=n/10;}
+   t=n%10;   // takes last digit
+   sum=t+(sum*10); 
+   n=n/10;}   // remove last digit
 
    if (call==sum) printf("palindrome");
    else printf("not ");
 
-    
-    return 0;
+   return 0;
 }
