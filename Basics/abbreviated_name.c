@@ -1,3 +1,8 @@
+// program to print the abbereviated name of given Name.
+
+// such as name = Ram Nath Kovind.
+// abbreviated name = R.N. kovind
+
 #include<stdio.h>
 int main(){
     int f[15],m[15],l[15];
