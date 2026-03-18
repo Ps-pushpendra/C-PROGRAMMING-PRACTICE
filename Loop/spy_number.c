@@ -9,10 +9,11 @@ int main(){
     scanf("%d",&num);
 
     while(num>0){
-        lst=num%10;
-        sum+=lst;
+        
+        lst=num%10;  // takes last digit
+        sum+=lst;     
         pro*=lst;
-        num=num/10;
+        num=num/10;  // remove the last digit
     }
 
      if (sum==pro) printf("SPY");
