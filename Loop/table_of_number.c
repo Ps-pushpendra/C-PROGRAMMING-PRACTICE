@@ -3,12 +3,14 @@
 #include<stdio.h>
 int main(){
     int n,i;
+    
     printf("enter any number of which table you want:");
     scanf("%d",&n);
 
     for (i=1;i<=10;i++){
-        printf("%d x %d = %d\n",n,i,n*i);
+        printf("%d x %d = %d\n",n,i,n*i);  // simple logic can understand by dryrun
     }
+    
     return 0;
 
 }
