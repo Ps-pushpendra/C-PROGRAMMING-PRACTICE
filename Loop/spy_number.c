@@ -1,3 +1,5 @@
+// program to dertemine a number is spy or not.
+
 #include<stdio.h>
 int main(){
 
