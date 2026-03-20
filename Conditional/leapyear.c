@@ -1,3 +1,5 @@
+// proram to check the year is leap year or not.
+
 #include<stdio.h>
 int main(){
     int y;
@@ -5,7 +7,7 @@ int main(){
     printf("enter year:");
     scanf("%d",&y);
 
-   if ((y%4==0 && y%100!=0) || (y%400==0) ) printf("leap year");
+   if ((y%4==0 && y%100!=0) || (y%400==0) ) printf("Leap year");
 
     else printf("Not a leap year");
 
