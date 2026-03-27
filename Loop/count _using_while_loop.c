@@ -8,9 +8,9 @@ int main(){
     scanf("%d",&n);
 
     int i;
-    while(i<=n){
+    while(i<=n){  // loop works as the condition met
         printf("%d \n",n);    // print the current value of n untill the condition match.
-        i++;
+        i++; // increment
     }
 return 0;    
 
