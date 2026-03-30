@@ -1,3 +1,15 @@
+// program to print the pattern   
+
+/*
+    
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+*/    
+
 #include<stdio.h>
 int main(){
     int n=5,i,j;
