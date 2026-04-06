@@ -8,7 +8,7 @@ int main(){
     printf("enter string:");
     gets(str); // here gets function can read string also with space 
     
-    while(str[count]!='0'){
+    while(str[count]!='\0'){  // here '\0' is null value
         count++;
     } 
     
