@@ -1,3 +1,5 @@
+// program to arrange the numbers of array in dexcending order.
+
 #include<stdio.h>
 int main(){
     int a[20];
