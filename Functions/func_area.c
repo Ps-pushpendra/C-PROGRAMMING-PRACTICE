@@ -5,7 +5,7 @@ float area;  // global declaration
 
 void circle(){
     float const pi = 3.14;  // constant value (not be changed)
-    float r;
+    float r;                // local variable
     printf("enter radius of circle:");
     scanf("%f",&r);
 
@@ -16,7 +16,7 @@ void circle(){
 }
 
 void square(){
-    float side;
+    float side;    // local variable
     printf("enter side of square:");
     scanf("%f",&side);
     
@@ -26,7 +26,7 @@ void square(){
 }
 
 void rect(){
-     float l,b;
+     float l,b;     // local variable
     printf("enter length :");
     scanf("%f",&l);
     printf("enter breadth :");
