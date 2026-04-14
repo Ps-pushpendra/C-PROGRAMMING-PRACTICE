@@ -10,7 +10,7 @@ void circle(){
     scanf("%f",&r);
 
     area = pi*(r*r);
-    printf("area of circle: %.3f",area);
+    printf("Area of Circle: %.3f",area);
     printf("\n\n");
     
 }
@@ -19,8 +19,9 @@ void square(){
     float side;
     printf("enter side of square:");
     scanf("%f",&side);
+    
     area = side*side;
-    printf("area of square: %.3f",area);
+    printf("Area of Square: %.3f",area);
     printf("\n\n");
 }
 
@@ -30,8 +31,9 @@ void rect(){
     scanf("%f",&l);
     printf("enter breadth :");
     scanf("%f",&b);
+    
     area = l*b;
-    printf("area of rectangle: %.3f",area);
+    printf("Area of Rectangle: %.3f",area);
     printf("\n\n");
 }
 
