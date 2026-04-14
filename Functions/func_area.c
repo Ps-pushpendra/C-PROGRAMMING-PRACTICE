@@ -1,8 +1,10 @@
+// program to find the area of circle ,rectangle,square using function with global declaration
+
 #include<stdio.h>
-float area;
+float area;  // global declaration
 
 void circle(){
-    float const pi = 3.14;
+    float const pi = 3.14;  // constant value (not be changed)
     float r;
     printf("enter radius of circle:");
     scanf("%f",&r);
@@ -34,7 +36,7 @@ void rect(){
 }
 
 int main(){
-    circle();
+    circle();     // function calls
     square();
     rect();
     return 0;
