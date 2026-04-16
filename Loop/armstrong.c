@@ -10,8 +10,8 @@ int main(){
     int n,arm=0,r,i,len=0;
     printf("enter number:");
     scanf("%d",&n);
-    int call = n;
-    
+    int call = n;  // for calling later
+ // loop for determining length   
 while(n!=0){
     r=n%10;
     n=n/10;
@@ -22,13 +22,13 @@ printf("\n");
 
  // Reset n before second loop
     n = call;
-
+// constraints for armstrong number.
 while(n!=0){
     r=n%10;
     arm = pow(r,len) + arm ;
     n=n/10;
 }
-
+// condition for armstrong number 
 if (arm == call) printf("ARMSTRONG NUMBER");
 else printf("NOT ARMSTRONG NUMBER");
     
