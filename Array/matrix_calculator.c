@@ -1,8 +1,12 @@
+// program to do basic arithmatic calculation on matrices by choice.
+// <<<<< MATRIX  CALCULATOR >>>>>>
+
 #include<stdio.h>
 int main(){
-    float a[3][3],b[3][3],c[3][3];
+    float a[3][3],b[3][3],c[3][3]; // here c matrix is only for multiplication concept
     char choice;
-    
+
+    // taking element of matrix A
     for (int i=0;i<3;i++){
         for(int j=0;j<3;j++){
             printf("enter element of matrix A: ");
@@ -10,7 +14,8 @@ int main(){
         }
     }
     printf("\n");
-    
+
+      // taking element of matrix B
     for(int i=0;i<3;i++){
          for(int j=0;j<3;j++){
             printf("enter element of matrix B: ");
@@ -30,7 +35,7 @@ int main(){
 
     printf("\n");
     printf("your choice: ");
-    scanf(" %c",&choice);
+    scanf(" %c",&choice);  // aware of space before format specifier
     printf("\n");
 
     switch(choice){
