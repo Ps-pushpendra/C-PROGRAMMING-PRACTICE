@@ -1,5 +1,7 @@
+// CREATE A USER DEFINED FUNCTION THAT WILL TAKE ONE CHARACTER ARUEMENT AND WILL RETURN THE ASCII OF THAT ARGUMENT.
+
 #include<stdio.h>
-char c;
+char c;  //global variable
 
 int character(char c){
   printf("%d",c);
