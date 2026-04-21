@@ -1,3 +1,5 @@
+// PROGRAM  to calculate the gst price of product of 18% using function
+
 #include<stdio.h>
 
 void gst(float prize);
@@ -11,7 +13,7 @@ int main(){
 }
 
 void gst(float price){
-   price += (price * 0.18) ;
+   price += (price * 0.18) ; // 18 % gst on product
    printf("final price after gst add on : %f",price);
 
 }
