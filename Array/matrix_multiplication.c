@@ -34,7 +34,7 @@ int main(){
         }
         printf("\n");
     }
-    // displaying the matrix A
+    // displaying the matrix B
     printf("\nthe elements of matrix B:");
     printf("\n");
     for(int i=0;i<3;i++){
