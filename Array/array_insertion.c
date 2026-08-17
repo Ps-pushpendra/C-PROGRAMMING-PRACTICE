@@ -1,9 +1,10 @@
 // program to insert an element in array.
+
 #include <stdio.h>
 
 int main() {
    
-   int a[500] ,n,i,j,e,p;
+   int a[100] ,n,i,e,p;
 
     printf("enter number of element:");
     scanf("%d",&n);
@@ -20,28 +21,25 @@ int main() {
     }
     printf("\n");
 
-    printf("old array: ");
+    printf("old array: ");   // displaying array.
 
       for(i=0;i<n;i++){
         printf("%d ",a[i]);
     }
 
-
       printf("\n");
 
-      for(i=n-1;i>=p-1;i--){
+      for(i=n-1;i>=p-1;i--){  // shifting element.
         a[i+1] = a[i];
     }
     
-    a[p-1] = e;
+    a[p-1] = e;  // inserting element to admired position.
 
-    
-    printf("inserted array: ");
+    printf("inserted array: "); 
 
       for(i=0;i<=n;i++){
         printf("%d ",a[i]);
     }
-
 
     return 0;
 }
